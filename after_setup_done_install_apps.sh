@@ -22,6 +22,7 @@ brew cask install intellij-idea
 brew cask install sourcetree
 
 # Install Karabiner
+brew cask install karabiner
 
-# Install 
-
+# Install Zoom
+brew cask install zoomus
