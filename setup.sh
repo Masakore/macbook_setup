@@ -1,11 +1,4 @@
 #!/bin/bash
-# Download files for setup from github repo
-SETUP_FILES_REMOTE='https://github.com/Masakore/macbook_setup.git' 
-SETUP_FILES_LOCAL=~/dev
-
-git clone $SETUP_FILES_REMOTE $SETUP_FILES_LOCAL 
-chmod +x $SETUP_FILES_LOCAL/setup.sh
-$SETUP_FILES_LOCAL/setup.sh
 
 # Install Homebrew. ts required to install tools such as git and wget.
 # Mac OS 10.9 will automatically prompt user to install XCode command line tools which is a pre-requisite.
@@ -44,6 +37,3 @@ brew install ruby
 echo Tapping caskroom/cask...
 brew tap caskroom/cask
 brew install brew-cask 
-
-chmod +x $SETUP_FILES_LOCAL/after_setup_done_install_apps.sh
-$SETUP_FILES_LOCAL/after_setup_done_install_apps.sh
