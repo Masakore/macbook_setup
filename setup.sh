@@ -2,7 +2,6 @@
 # Download files for setup from github repo
 SETUP_FILES_REMOTE='https://github.com/Masakore/macbook_setup.git' 
 SETUP_FILES_LOCAL=~/dev
-mkdir ~/dev
 
 git clone $SETUP_FILES_REMOTE $SETUP_FILES_LOCAL 
 chmod +x $SETUP_FILES_LOCAL/setup.sh
