@@ -34,5 +34,4 @@ brew install ruby
 
 # Install Homebrew-cask. A CLI workflow for the adminisration of Mac applications distributed as binaries http://caskroom.io
 echo Tapping caskroom/cask...
-brew tap caskroom/cask
-brew install brew-cask 
+brew install brew-cask-completion
