@@ -25,7 +25,6 @@ sdk install java
 sdk install groovy
 sdk install grails
 sdk install gradle
-brew cask install sequel-pro
 
 # Install python (comes with Setuptools and pip)
 brew install python 
